@@ -3,7 +3,7 @@
 using namespace std;
 
 int * fun (int arraySize, int * array) {
-    int* arrayPointer;
+    int * arrayPointer;
     arrayPointer = new int[arraySize];
 
     for (int i = 0; i < arraySize; i++)
