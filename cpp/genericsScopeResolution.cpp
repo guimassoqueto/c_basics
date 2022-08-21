@@ -25,6 +25,9 @@ T Arithmetic<T>::add() {
 }
 
 int main() {
-    Arithmetic<int> ar(5,3);
-    cout << "Sum: " << ar.add() << endl;
+    Arithmetic<int> integers(5, 3);
+    cout << "Sum: " << integers.add() << endl;
+
+    Arithmetic<float> floats(5.2, 3.4);
+    cout << "Sum: " << floats.add() << endl;
 }
